@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #1c1f26; /* charcoal gelap */
+  color: #f0f0f0;
+}
+
+main {
+  max-width: 800px;
+  margin: 3rem auto;
+  background: #2a2d36; /* sedikit lebih terang dari background utama */
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  color: #e3c77b; /* gold */
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  color: #d5b860;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+p, li {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+  margin-bottom: 1rem;
+  border: 3px solid #e3c77b;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
