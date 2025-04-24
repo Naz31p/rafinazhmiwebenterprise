@@ -1,0 +1,3 @@
+function followUser() {
+    alert("Followed!");
+}
