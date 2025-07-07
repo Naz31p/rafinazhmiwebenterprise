@@ -1,27 +1,15 @@
-import MahasiswaPage from "./MahasiswaPage";
-import DosenPage from "./DosenPage";
-import ModulPage from "./ModulPage";
-import KelasPage from "./KelasPage";
-import MahasiswaModulPage from "./MahasiswaModulPage";
+import Sidebar from "../components/Sidebar";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="p-6 space-y-12">
-      <div className="bg-white rounded-xl p-4 shadow">
-        <MahasiswaPage />
-      </div>
-      <div className="bg-white rounded-xl p-4 shadow">
-        <DosenPage />
-      </div>
-      <div className="bg-white rounded-xl p-4 shadow">
-        <ModulPage />
-      </div>
-      <div className="bg-white rounded-xl p-4 shadow">
-        <KelasPage />
-      </div>
-      <div className="bg-white rounded-xl p-4 shadow">
-        <MahasiswaModulPage />
-      </div>
+    <div style={{ padding: 20 }}>
+      <Sidebar />
+      <h1 style={{ textAlign: "center", marginTop: 20 }}>
+        CRUD SISTEM INFORMASI AKADEMIK 
+        KELOMPOK 1
+      </h1>
     </div>
   );
-}
+};
+
+export default Home;
